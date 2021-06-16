@@ -69,7 +69,6 @@ func main() {
 
 	if *r {
 		fmt.Println(TextToCode(*s))
-		fmt.Println("}\n")
 	} else {
 		fmt.Println("package main\n")
 
